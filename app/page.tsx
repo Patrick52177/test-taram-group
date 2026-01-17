@@ -23,14 +23,20 @@ export default function Home() {
                  </div>
         </div>
         {/* Titre */}
-        <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900">
-          Construisez des applications modernes avec Next.js
+        <h1 className="max-w-5xl text-3xl font-semibold tracking-tight text-white sm:text-4xl md:text-5xl lg:text-6xl" >
+          Votre <span className="text-[#71DDAE]">site</span> doit{" "}
+           <span className="text-[#71DDAE]">donner envie</span>de{" "} <br />
+           <span className="text-[#71DDAE]">rester</span>, pas de{" "}
+           <span className="line-through decoration-[#1c1c1c] ">
+           <span className="text-[#71DDAE]">revenir</span>{" "}
+            <span className="text-white">en</span>{" "}<br />
+             <span className="text-[#71DDAE]">arrière</span></span>.
         </h1>
 
         {/* Sous-titre */}
-        <p className="text-gray-600 text-base sm:text-lg max-w-2xl">
-          Next.js et Tailwind CSS vous permettent de créer des interfaces rapides,
-          responsives et élégantes en un minimum de temps.
+        <p className="max-w-lg text-white/80 text-base sm:max-w-2xl sm:text-lg md:text-xl">
+          Design modern, SEO solide, Suivi complet: <br />
+          on construit un site retient vos visiteurs et vous apporte des résultats.
         </p>
 
         {/* Boutons */}
