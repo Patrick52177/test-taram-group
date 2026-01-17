@@ -3,14 +3,25 @@ import Image from "next/image";
 export default function Home() {
   return (
     <main className="flex-1 bg-black">
-       <section className="relative overflow-hidden min-h-[100vh] flex items-center justify-center px-4">
-      <div className="max-w-4xl mx-auto text-center flex flex-col items-center gap-6">
+       <section className="relative overflow-hidden min-h-[100vh] py-8 sm:py-24 md:py-16">
+           <div className="text-center flex flex-col items-center gap-6 ">
         
         {/* Badge */}
-        <span className="inline-block rounded-full bg-blue-100 text-blue-600 px-4 py-1 text-sm font-medium">
-          🚀 Nouveau projet
-        </span>
-
+        <div className="inline-block mb-4 w-full sm:w-auto">
+                <div className="relative flex items-center rounded-full bg-white border border-[#2c2c2c] 
+                 px-4 py-3 overflow-hidden sm:gap-5 sm:px-8 sm:py-4 sm:overflow-visible md:px-10 md:py-5" >
+                  <Image
+                  src="/2_Logo_Bulle.png"
+                   alt="loupe"
+                  width={48}
+                  height={48}
+                  className="sm:h-12 sm:w-12 md:h-14 md:w-15"/>
+                  <p className="font-extrabold text-[#2c2c2c] overflo-hidden whitespace-nowrap
+                  sm:text-lg sm:overflow-visible sm:whitespace-nowrap md:text-xl lg:text-2xl xl:text-3xl uppercase">
+                    Créer un site web vraiment unique</p>
+                 
+                 </div>
+        </div>
         {/* Titre */}
         <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900">
           Construisez des applications modernes avec Next.js
